@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    font-family: 'Times New Roman', serif;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+  }
+}
